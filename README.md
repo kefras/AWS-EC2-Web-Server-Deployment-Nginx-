@@ -79,7 +79,7 @@ Inbound rules:
 ### 3. Connect via SSH
 
 ```bash
-ssh -i "key.pem" ec2-user@13.59.11.213
+ssh -i "etiku.pem" ec2-user@13.59.11.213
 
 sudo yum update -y
 sudo yum install nginx -y
